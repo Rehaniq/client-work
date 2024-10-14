@@ -423,7 +423,7 @@ hr {
         height: auto;
         justify-content: center;
         align-items: center;
-        width: 100%;
+      
     }
 
     .overlay p {
@@ -436,11 +436,6 @@ hr {
         padding: 0 5px;
     }
 
-    #greeting {
-        font-size: 1rem;
-    }
-
-    
 
     .bkt img {
         width: 200px;
