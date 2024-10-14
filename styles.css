@@ -446,6 +446,7 @@ hr {
         height: auto;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
 
     .overlay p {
