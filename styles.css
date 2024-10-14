@@ -440,3 +440,50 @@ hr {
     border: 10px solid green;
     border-radius: 5px;
   }
+@media (min-width:320px) {
+    #about {
+        flex-direction: column; 
+        height: auto; 
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .overlay p{
+            font-size: 1em; 
+            padding: 0 5px; 
+        
+}
+
+.overlay h2{
+    font-size: 2rem; 
+    padding: 0 5px; 
+
+}
+#greeting {
+    font-size: 1.2rem; 
+}
+
+#time {
+    font-size: 1.8rem; 
+}
+#categories{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.bkt img {
+    border-radius: 10%;
+    justify-content: center; 
+    align-self: center;
+    flex-wrap: wrap;
+}
+#home {
+        background-image: url(./Homeus.png);
+    
+}
+header{
+    width: 100%;
+}
+    
+}
