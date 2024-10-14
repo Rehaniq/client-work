@@ -78,29 +78,6 @@ body {
 }
 
 
-
-
-
-.timeSection{
-    height: 10vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: hwb(0 3% 97% / 0);
-    color: white;
-    text-align: center;
-    gap: 5px; 
-}
-.greeting {
-    font-size: 2rem; 
-}
-
-.time {
-    font-size: 2.5rem; 
-}
-
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -463,24 +440,7 @@ hr {
         font-size: 1rem;
     }
 
-    #time {
-        font-size: 1.6rem;
-    }
-
-    #categories {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .cat-card {
-        width: 150px;
-        margin: 10px;
-    }
-
-    .cat-card img {
-        height: 150px;
-    }
+    
 
     .bkt img {
         width: 200px;
